@@ -1,5 +1,5 @@
 # Sou meu dono
-Aplicativo simples para conexão ao google drive e criação de tabelas .xls
+Aplicativo simples para conexão ao google drive e edição de arquivos .txt
 
 Atualmente, somente se conecta a conta do Google Drive do usuário e carrega os arquivos txt.
 
