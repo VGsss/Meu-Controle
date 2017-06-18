@@ -52,6 +52,7 @@ public class PickFileWithOpenerActivity extends MainActivity {
             case REQUEST_CODE_OPENER:
                 if (resultCode == RESULT_OK) {
                     DriveId driveId = data.getParcelableExtra(OpenFileActivityBuilder.EXTRA_RESPONSE_DRIVE_ID);
+<<<<<<< HEAD:app/src/main/java/fatec/rbr/serragensis/PickFileWithOpenerActivity.java
                     Intent myIntent = new Intent(getBaseContext(), SetBD.class);
                     myIntent.putExtra("fileID", driveId.getResourceId());
                     Log.i(TAG,"No problems, will open the Text Editor");
@@ -60,7 +61,18 @@ public class PickFileWithOpenerActivity extends MainActivity {
                 else{
                     showMessage("Erro desconhecido");
                     Log.e(TAG,"Deu algum erro desconhecido" + resultCode);
+=======
+                    Intent myIntent = new Intent(getBaseContext(), TextEditor.class);
+                    myIntent.putExtra("fileID", driveId.getResourceId());
+                    Log.i(TAG,"No problems, will open the Text Editor");
+                    startActivity(myIntent);
+>>>>>>> origin/master:app/src/main/java/fatec/rbr/serragensis/PickFileWithOpenerActivity.java
                 }
+                else{
+                    showMessage("deu merda");
+                    Log.e(TAG,"" + resultCode);
+                }
+
                 finish();
                 break;
             default:
