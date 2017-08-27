@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" android:title="Funções">
+        <item
+            android:id="@+id/nav_servicos"
+            android:scaleType="fitCenter"
+            android:title="@string/activity_main_drawer_Servicos" />
+        <item
+            android:id="@+id/nav_financeiro"
+            android:scaleType="fitCenter"
+            android:title="@string/activity_main_drawer_Financeiro" />
+        <item
+            android:id="@+id/nav_estoque"
+            android:scaleType="fitCenter"
+            android:title="@string/activity_main_drawer_Estoque" />
+        <item
+            android:id="@+id/nav_pessoal"
+            android:scaleType="fitCenter"
+            android:title="@string/activity_main_drawer_Pessoal" />
+    </group>
+
+    <item android:title="Banco de Dados">
+        <menu>
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Salvar BD" />
+            <item
+                android:id="@+id/nav_download"
+                android:icon="@drawable/ic_menu_downarrow"
+                android:title="Carregar BD" />
+        </menu>
+    </item>
+
+</menu>

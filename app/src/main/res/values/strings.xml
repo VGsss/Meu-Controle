@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SerraGenSiS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="import_txt">Editar arquivo de texto</string>
+    <string name="home_lbl">Bem Vindo!</string>
+    <string name="activity_main_drawer_Agenda">Agenda</string>
+    <string name="activity_main_drawer_Pessoal">Pessoal</string>
+    <string name="activity_main_drawer_Financeiro">Financeiro</string>
+    <string name="activity_main_drawer_Servicos">Serviços</string>
+    <string name="activity_main_drawer_Estoque">Estoque</string>
+</resources>
