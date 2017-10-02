@@ -12,4 +12,6 @@
     <string name="activity_main_drawer_Financeiro">Financeiro</string>
     <string name="activity_main_drawer_Servicos">Serviços</string>
     <string name="activity_main_drawer_Estoque">Estoque</string>
+    <string name="serragensis">SerraGenSis</string>
+    <string name="descricao_NavBar">Sistema de Gerenciamento de Serviços de Serralheira</string>
 </resources>
