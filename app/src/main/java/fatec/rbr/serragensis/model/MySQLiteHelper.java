@@ -123,7 +123,6 @@ public class MySQLiteHelper extends SQLiteOpenHelper {
                 orcamento.setId(Integer.parseInt(cursor.getString(0)));
                 orcamento.setNomeCliente(cursor.getString(1));
                 orcamento.setEnderecoCliente(cursor.getString(2));
-                orcamento.setValor(Integer.parseInt(cursor.getString(3)));
 
                 // Add orcamento to orcamentos
                 orcamentos.add(orcamento);

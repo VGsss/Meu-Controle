@@ -1,14 +1,17 @@
 package fatec.rbr.serragensis.model;
 
-public class Orcamento {
+/**
+ * Created by VGs on 02/10/2017.
+ */
 
+public class Servico {
     private int id;
     private Cliente Cliente_Orcamento = null;
     private int valor;
 
-    public Orcamento(){}
+    public Servico(){}
 
-    public Orcamento(String nomeCliente, String enderecoCliente,int valor) {
+    public Servico(String nomeCliente, String enderecoCliente,int valor) {
         super();
         this.Cliente_Orcamento.setNome(nomeCliente);
         this.Cliente_Orcamento.setEndereco(enderecoCliente);
@@ -46,11 +49,4 @@ public class Orcamento {
     public void setId(int id) {
         this.id = id;
     }
-
-    @Override
-    public String toString() {
-        return "Nome: " + getNomeCliente() + " Endereço: " +
-                getEnderecoCliente() + " Valor: " + getValor();
-    }
 }
-
